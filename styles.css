@@ -20,9 +20,11 @@ nav ul {
   color:olivedrab
  }
  
- .footer {
-  text-align: center;
+ footer {
   color: olive;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
  }
 
 nav li {
