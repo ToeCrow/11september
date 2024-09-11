@@ -1,8 +1,9 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: yellowgreen }
 
 
 .header {
  text-align: center;
+ color: olive;
 }
 
 
@@ -16,10 +17,12 @@ nav ul {
 }
  .content {
   text-align: center;
+  color:olivedrab
  }
  
  .footer {
   text-align: center;
+  color: olive;
  }
 
 nav li {
@@ -28,16 +31,17 @@ nav li {
 }
 
 nav a {
- color: blue;
+ color: olive;
  text-decoration: none;
 }
 
 nav a:hover,
 nav a:focus {
- color: aqua;
+ color: olivedrab;
+ font-weight: 550;
 }
 
 .current-page {
- border-bottom: 1px solid blue;
+ border-bottom: 1px solid olive;
  padding: .5rem;
 }
