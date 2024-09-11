@@ -1,0 +1,43 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+
+
+.header {
+ text-align: center;
+}
+
+
+nav ul {
+ display: flex;
+ list-style-type: none;
+ justify-content: space-around;
+ width: 40%;
+ margin: 0 auto;
+ 
+}
+ .content {
+  text-align: center;
+ }
+ 
+ .footer {
+  text-align: center;
+ }
+
+nav li {
+ 
+ 
+}
+
+nav a {
+ color: blue;
+ text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+ color: aqua;
+}
+
+.current-page {
+ border-bottom: 1px solid blue;
+ padding: .5rem;
+}
